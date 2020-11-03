@@ -1,0 +1,447 @@
+      * {
+          margin: 0;
+          padding: 0;
+      }
+
+      main {
+          background-color: white;
+          padding: 2%;
+      }
+
+      body {
+
+          background-color: white;
+          font-family: sans-serif;
+          font-size: 12px;
+
+      }
+
+      img {
+          width: 100%;
+          display: block;
+          margin: 0 auto;
+          padding-bottom: 1%;
+      }
+
+      h2 {
+          width: 80%;
+          display: block;
+          margin: 0 auto;
+      }
+
+      iframe {
+          max-width: 90%;
+          display: block;
+          margin: 0 auto;
+      }
+
+
+      /* Header
+-----------------------------------------------------------------------------*/
+      header {
+          background-color: black;
+          align-items: center;
+          height: 20px;
+
+      }
+
+      header,
+      main,
+      footer {
+          padding: 2%;
+      }
+
+      nav {
+          background-color: black;
+          text-align: left;
+          overflow: hidden;
+
+      }
+
+      nav li {
+          padding-left: 1.4em;
+      }
+
+      nav ul {
+          list-style-type: none;
+          display: inline;
+          margin: 0;
+      }
+
+      nav a {
+          color: white;
+          text-decoration: none;
+          float: left;
+          padding: 1%;
+          display: flex;
+      }
+
+      nav a:hover {
+          color: white;
+          text-decoration: underline;
+      }
+
+      header img {
+          width: 30px;
+          background: white;
+          float: left;
+          display: flex;
+      }
+
+      #logo {
+          width: 100%;
+          display: block;
+          margin: 0 auto;
+      }
+
+
+
+
+      /* Middle
+-----------------------------------------------------------------------------*/
+
+
+
+      #text {
+          margin-right: 2%;
+          display: flex;
+      }
+
+      p {
+          list-style-type: none;
+          margin: 0;
+          padding-bottom: 2%;
+      }
+
+      /* Footer
+-----------------------------------------------------------------------------*/
+      footer {
+          background-color: black;
+
+      }
+
+      footer {
+          left: 0;
+          bottom: 0;
+          width: auto;
+          color: white;
+          text-align: center;
+          text-decoration: none;
+          overflow: hidden;
+          clear: both;
+      }
+
+      @media only screen and (min-width: 320px) {
+          header {
+              background-color: black;
+          }
+
+
+
+          #column-left {
+              padding: 2%;
+          }
+
+          #donny {
+              padding: 2%;
+          }
+
+          #auba {
+              padding: 2%;
+          }
+
+          #arsenal {
+              padding: 2%;
+          }
+
+          #vardy {
+              padding: 2%;
+          }
+
+          #roy {
+              padding: 2%;
+          }
+
+          #image {
+              width: 100%;
+          }
+
+          footer {
+              clear: both;
+          }
+
+          main {
+              overflow: auto;
+              background-repeat: no-repeat;
+              background-image: url("../img/vardy.jpg");
+          }
+
+          h2 {
+              text-align: left;
+
+          }
+
+          h1 {
+              text-align: center;
+              font-size: 12%;
+          }
+
+          p {
+              font-family: sans-serif;
+          }
+      }
+
+
+
+      @media only screen and (min-width: 480px) {
+          header {
+              background-color: black;
+          }
+
+
+
+          #column-left {
+              margin: 2%;
+              width: 25%;
+              float: left;
+              padding: 2%;
+
+          }
+
+          #donny {
+              margin: 2%;
+              width: 25%;
+              float: left;
+              padding: 2%;
+
+          }
+
+          #auba {
+              margin: 2%;
+              width: 25%;
+              float: left;
+              padding: 2%;
+
+          }
+
+          #arsenal {
+              margin: 2%;
+              width: 25%;
+              float: left;
+              padding: 2%;
+
+          }
+
+          #vardy {
+              margin: 2%;
+              width: 25%;
+              float: left;
+              padding: 2%;
+
+          }
+
+          #roy {
+              margin: 2%;
+              width: 25%;
+              float: left;
+              padding: 2%;
+
+          }
+
+
+          #image {
+              width: 100%;
+          }
+
+          footer {
+              clear: both;
+          }
+
+          main {
+              overflow: auto;
+
+          }
+
+
+          h2 {
+              text-align: center;
+
+          }
+
+          h1 {
+              text-align: center;
+              font-size: 300%;
+          }
+
+          p {
+              font-family: sans-serif;
+          }
+      }
+
+      @media only screen and (min-width: 768px) {
+          header {
+              background-color: black;
+          }
+
+          #column-left {
+              margin: 2%;
+              width: 25%;
+              display: block;
+              float: left;
+              padding: 2%;
+
+          }
+
+          #donny {
+              margin: 2%;
+              width: 25%;
+              float: left;
+              padding: 2%;
+
+          }
+
+          #auba {
+              margin: 2%;
+              width: 25%;
+              float: left;
+              padding: 2%;
+
+          }
+
+          #arsenal {
+              margin: 2%;
+              width: 25%;
+              display: block;
+              float: left;
+              padding: 2%;
+
+          }
+
+          #vardy {
+              margin: 2%;
+              width: 25%;
+              float: left;
+              padding: 2%;
+          }
+
+          #roy {
+              margin: 2%;
+              width: 25%;
+              float: left;
+              padding: 2%;
+          }
+
+          #image {
+              width: 100%;
+          }
+
+          footer {
+              clear: both;
+          }
+
+          main {
+              overflow: auto;
+              background-image: url('../img/donny.jpg');
+          }
+
+          #top{
+              background-image: url(../img/arsenal.jpg);
+              background-size: 100%;
+              width: 100%;
+              padding-top: 18%;
+              height: 0;
+              background-repeat: no-repeat;
+          }
+
+
+          h2 {
+              text-align: center;
+
+          }
+
+          h1 {
+              text-align: center;
+          }
+
+          p {
+              font-family: sans-serif;
+          }
+      }
+
+      @media only screen and (min-width: 1024px) {
+          header {
+              background-color: black;
+          }
+
+          #column-left {
+              margin: 2%;
+              width: 25%;
+              display: block;
+              float: left;
+              padding: 2%;
+
+          }
+
+          #donny {
+              margin: 2%;
+              width: 25%;
+              display: block;
+              float: left;
+              padding: 2%;
+
+          }
+
+          #auba {
+              margin: 2%;
+              width: 25%;
+              display: block;
+              float: left;
+              padding: 2%;
+
+          }
+
+          #arsenal {
+              margin: 2%;
+              width: 25%;
+              display: block;
+              float: left;
+              padding: 2%;
+
+          }
+
+          #vardy {
+              margin: 2%;
+              width: 25%;
+              display: block;
+              float: left;
+              padding: 2%;
+
+          }
+
+          #roy {
+              margin: 2%;
+              width: 25%;
+              display: block;
+              float: left;
+              padding: 2%;
+          }
+
+          #image {
+              width: 100%;
+          }
+
+          footer {
+              clear: both;
+          }
+
+          main {
+              overflow: auto;
+
+          }
+
+          #wrapper {
+              width: 1000px;
+              margin: 0 auto;
+          }
+      }
+      
